@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔐 Authentication with Next.js, TypeScript, ShadCN UI, and Appwrite
 
-## Getting Started
+This project is a modern authentication system built using **Next.js (App Router)**, **TypeScript**, **ShadCN UI**, and **Appwrite**. It supports **sign up**, **login**, **logout**, **session-based user context**, and **Google OAuth**, all styled with ShadCN UI and deployed via **Vercel**.
 
-First, run the development server:
+## 🚀 Live Preview 👉 [View Live](https://authentication-app-in-next-js.vercel.app)
+
+---
+
+## 📁 Features
+
+- 🔑 **Sign up and login with email/password**
+- 🧠 **Context-based user session management**
+- 🔄 **Persistent login after refresh**
+- ⚙️ **Logout functionality**
+- 🌐 **Google OAuth (optional)**
+- 🧭 **Routing with App Router & Middleware**
+- ✨ **Responsive UI with ShadCN**
+- ☁️ **Deployed to Vercel**
+
+---
+
+## 🚀 How to Run Locally
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/raj-0508/authentication-nextjs-appwrite
+cd authentication-nextjs-appwrite
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Set up `.env.local`
+
+```env
+NEXT_PUBLIC_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+NEXT_PUBLIC_APPWRITE_PROJECT_ID=your-project-id
+```
+
+> Replace the values above with your actual Appwrite credentials.
+
+### 4. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧠 What I Learned
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- ✅ Integrated **Appwrite** into a Next.js TypeScript project
+- 🔄 Managed global session with **React Context**
+- 🔐 Protected routes using **middleware.ts**
+- 🎨 Built modern, accessible UIs with **ShadCN UI**
+- ☁️ Configured **CORS and Web Platforms** in Appwrite
+- 🚀 Deployed project on **Vercel** with proper rewrites
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧰 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js (App Router)
+- TypeScript
+- Appwrite
+- ShadCN UI
+- Tailwind CSS
+- Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📸 Screenshots
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![image](Screenshot1.png)
+![image](Screenshot2.png)
+![image](Screenshot3.png)
+![image](Screenshot4.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📫 Feedback
+
+If you find this helpful or have suggestions, feel free to open issues or connect!
+
+> Made with ❤️ by Raj Singhaniya
